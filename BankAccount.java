@@ -1,7 +1,7 @@
 public class BankAccount {
 
     //instance variables
-    private long accountNumber;
+    private final long accountNumber;
     private int pin;
     private float balance;
 
@@ -58,15 +58,6 @@ public class BankAccount {
 
 
     //setters
-
-    public void setBalance(float amount){
-        balance=amount;
-    }
-
-    public void setAccountNumber(long newNumber){
-        accountNumber=newNumber;
-    }
-
     public void setPin(int newPin){
         pin=newPin;
     }
